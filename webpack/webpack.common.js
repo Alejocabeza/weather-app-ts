@@ -6,6 +6,9 @@ const path = require('path'); //require lib of nodejs
 /**@type{import('webpack').Configuration}*/
 module.exports = {
 	entry: '/src/index.ts',
+	resolve: {
+    extensions: ['.js', '.ts'],
+  },
 	module: {
 		rules: [
 			{

@@ -5,7 +5,6 @@ const common = require('./webpack.common');
 const devConfig = {
 	mode: 'development',
 	devServer: {
-		contentBase: 'build',
 		compress: true,
 		port: 3000,
 		open: true,
